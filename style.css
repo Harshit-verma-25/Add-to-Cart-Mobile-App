@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #EEF0F4;
+    user-select: none;
+}
+.container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+}
+img{
+    height: 250px;
+    border-radius: 8px;
+}
+
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 8px 0px;
+}
+button{
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+    background: #ff96ad8c;
+    box-shadow: 0 0 10px #AC485A, 0 0 10px #AC485A, 0 0 10px #AC485A, 0 0 10px #AC485A;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+ul li{
+    padding: 12px 15px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: green;
+    box-shadow: 0 0 10px lightgreen, 0 0 10px lightgreen, 0 0 10px lightgreen, 0 0 10px lightgreen;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
